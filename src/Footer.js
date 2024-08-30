@@ -1,13 +1,13 @@
 export default function Footer(){
     return(
-        <div style={{}}>
+        <div className="container-fluid" >
                 <div className="row" style={{backgroundColor:"black",padding:"30px",marginTop:"60px"}}>
-                    <div className="col-sm-4">
+                    <div className="col-sm-4 col-6">
                         <label id="footertext">INSTAGRAM</label><br/>
                         <label id="footertext">TWITTER</label><br/>
                         <label id="footertext">FACEBOOK</label><br/>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-sm-4  col-6">
                         <label id="footertext">ABOUT US</label><br/>
                         <label id="footertext">BLOG</label><br/>
                         <label id="footertext">POLICY</label><br/>

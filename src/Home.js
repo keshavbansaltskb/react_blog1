@@ -7,7 +7,8 @@ import FeatPost from "./FeatPost.js";
 import Footer from "./Footer";
 export default function Home(){
     return(
-        <div className="container-fluid" id="home">
+        <div>
+            <div className="container" id="home">
                 <br></br><br></br>
                 <About />
                 <br></br><br></br><br></br><br></br>
@@ -18,22 +19,20 @@ export default function Home(){
                 <label style={{fontSize:"40px",fontWeight:"bold",marginLeft:"10px"}}>Featured Post</label>
                 <br></br><br></br>
                 <Post/>
-                <br></br><br></br><br/><br/><br/>
+                <br></br>
                 <label style={{fontSize:"40px",fontWeight:"bold",marginLeft:"10px"}}>Health & Happiness</label>
                 <br/><br/><br/>
-                <Health/>
-                <br/><br/><br/>
-                <br/><br/>              
+                <Health/>         
                 <label style={{fontSize:"40px",fontWeight:"bold",marginLeft:"10px"}}>Love & Relationship</label>
                 <br/><br/>
                 <Love/>
-                <br/><br/><br/>
-                <br/><br/>              
                 <label style={{fontSize:"40px",fontWeight:"bold",marginLeft:"10px"}}>Featured Posts</label>
                 <br/><br/>
                 <FeatPost/>
-                <br/><br/><br/><br/>
+            </div>
+            <div className="row">
                 <Footer/>
+            </div>
         </div>
     )
 }
